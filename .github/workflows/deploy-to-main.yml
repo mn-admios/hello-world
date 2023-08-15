@@ -11,3 +11,6 @@ jobs:
           node-version: "18.17.0"
       - run: npm install
       - run: npm run build
+      - name: Move build output
+        run: .\scripts\move-out-dir.ps1
+        shell: powershell
