@@ -15,7 +15,7 @@ describe("About", () => {
     render(<AbutPage />);
 
     const link = screen.getByRole("link", {
-      name: "Back",
+      name: "Backs",
     });
 
     expect(link).toBeInTheDocument();
